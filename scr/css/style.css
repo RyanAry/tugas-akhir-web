@@ -1,0 +1,128 @@
+body {
+  background-color: #bdc3c7;
+}
+
+/* nav */
+.navbar {
+  background-color: #222831;
+}
+.navbar a {
+  color: white;
+}
+/* /nav */
+
+/* head */
+#head img {
+  width: 100%;
+}
+#head .text-head {
+  padding-left: 5%;
+  margin-top: -175px;
+}
+
+#head a {
+  /* size: 2000px; */
+  padding: 20px;
+  font-weight: bold;
+  font-size: 35px;
+  background-color: white;
+  color: #1e1e1e;
+}
+#head .text-head h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Poppins;
+  color: white;
+}
+#head .text-head p {
+  font-size: 25px;
+  font-family: Poppins;
+  color: white;
+}
+/* /head */
+/* body */
+#body {
+  font-family: Poppins;
+}
+#body h1 {
+  /* font-family: Poppins; */
+  font-size: 75px;
+  font-weight: bold;
+}
+#body p {
+  /* font-family: Poppins; */
+  font-size: 25px;
+}
+/* /body */
+/* musim */
+#musim {
+  font-family: poppins;
+  margin-top: 20%;
+}
+
+#musim h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+/* logo musim */
+#musim .logo-musim-1 img {
+  /* width: 100%; */
+  margin-left: 47%;
+}
+#musim .logo-musim-2 img {
+  /* width: 100%; */
+  margin-left: 48%;
+}
+/* /logo musim */
+#musim .img-header-musim img {
+  margin-top: 10%;
+  width: 100%;
+}
+#musim .text-musim p {
+  font-size: 25px;
+}
+#musim .gambar-musim img {
+  margin-top: -900px;
+}
+#musim .card-musim h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+/* /musim */
+
+footer {
+  background-color: #222831;
+  padding-bottom: 20px;
+}
+footer a {
+  color: white;
+  font-family: Mr Dafoe;
+  font-size: 30px;
+  text-decoration: none;
+}
+footer p {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  /* text-align: center; */
+}
+footer table {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  /* text-align: center; */
+}
+.copyright p {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: center;
+}
+.copyright span {
+  color: white;
+  /* font-size: 20px; */
+  font-family: Mr Dafoe;
+}
