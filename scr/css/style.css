@@ -2,11 +2,57 @@ body {
   background-color: #bdc3c7;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+  }
+  .text-head {
+    margin-top: -250px;
+  }
+  #head a {
+    visibility: hidden;
+  }
+  #head h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  #head p {
+    visibility: hidden;
+  }
+  .gambar-body {
+    visibility: hidden;
+  }
+  #body h1 {
+    text-align: center;
+  }
+  #musim .gambar-musim {
+    visibility: hidden;
+  }
+  .logo-musim-1 {
+    /* visibility: hidden; */
+    width: 73%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #head .text-head {
+    padding-left: 5%;
+    margin-top: -175px;
+  }
+  #head a {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: white;
+    color: #1e1e1e;
+  }
+}
+
 /* nav */
 .navbar {
   background-color: #222831;
 }
 .navbar a {
+  margin-left: 20px;
   color: white;
 }
 /* /nav */
@@ -15,22 +61,8 @@ body {
 #head img {
   width: 100%;
 }
-#head .text-head {
-  padding-left: 5%;
-  margin-top: -175px;
-}
 
-#head a {
-  /* size: 2000px; */
-  padding: 20px;
-  font-weight: bold;
-  font-size: 35px;
-  background-color: white;
-  color: #1e1e1e;
-}
 #head .text-head h1 {
-  font-size: 100px;
-  font-weight: bold;
   font-family: Poppins;
   color: white;
 }
@@ -43,11 +75,7 @@ body {
 /* body */
 #body {
   font-family: Poppins;
-}
-#body h1 {
-  /* font-family: Poppins; */
-  font-size: 75px;
-  font-weight: bold;
+  margin-left: 20px;
 }
 #body p {
   /* font-family: Poppins; */
@@ -62,7 +90,7 @@ body {
 
 #musim h1 {
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: bold;
 }
 /* logo musim */
@@ -81,13 +109,14 @@ body {
 }
 #musim .text-musim p {
   font-size: 25px;
+  margin-left: 20px;
 }
 #musim .gambar-musim img {
   margin-top: -900px;
 }
 #musim .card-musim h1 {
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: bold;
   margin-top: 200px;
 }
@@ -102,17 +131,20 @@ footer a {
   font-family: Mr Dafoe;
   font-size: 30px;
   text-decoration: none;
+  margin-left: 20px;
 }
 footer p {
   color: white;
   font-family: Poppins;
   font-size: 20px;
   /* text-align: center; */
+  margin-left: 20px;
 }
 footer table {
   color: white;
   font-family: Poppins;
   font-size: 20px;
+  margin-left: 20px;
   /* text-align: center; */
 }
 .copyright p {
