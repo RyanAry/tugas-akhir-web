@@ -12,6 +12,12 @@ body {
   #head a {
     visibility: hidden;
   }
+  #body p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+    text-align: justify;
+  }
   #head h1 {
     font-size: 50px;
     text-align: center;
@@ -31,6 +37,18 @@ body {
   .logo-musim-1 {
     /* visibility: hidden; */
     width: 73%;
+    /* height: 50%; */
+  }
+  .logo-musim-2 {
+    /* visibility: hidden; */
+    width: 83%;
+    /* height: 50%; */
+  }
+  #musim .text-musim p {
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -44,6 +62,14 @@ body {
     font-size: 35px;
     background-color: white;
     color: #1e1e1e;
+  }
+  #body p {
+    /* font-family: Poppins; */
+    font-size: 25px;
+  }
+  #musim .text-musim p {
+    font-size: 25px;
+    margin-left: 20px;
   }
 }
 
@@ -77,10 +103,7 @@ body {
   font-family: Poppins;
   margin-left: 20px;
 }
-#body p {
-  /* font-family: Poppins; */
-  font-size: 25px;
-}
+
 /* /body */
 /* musim */
 #musim {
@@ -107,10 +130,6 @@ body {
   margin-top: 10%;
   width: 100%;
 }
-#musim .text-musim p {
-  font-size: 25px;
-  margin-left: 20px;
-}
 #musim .gambar-musim img {
   margin-top: -900px;
 }
@@ -118,7 +137,11 @@ body {
   text-align: center;
   /* font-size: 50px; */
   font-weight: bold;
-  margin-top: 200px;
+  margin-top: 150px;
+}
+.card-title a {
+  text-decoration: none;
+  color: #222831;
 }
 /* /musim */
 
